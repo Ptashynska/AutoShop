@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+html,
+body {
+    line-height: 24px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Helvetica Neue Medium', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #f0ebe8;
+
+}
+
+.row {
+    
+    border: 1px solid black;
+}
+
+.col-sm {
+    border: 1px solid red;
+}
+
+.col-md-5 {
+    border: 1px solid purple;
+}
+
+.contact-us {
+    display: none;
+}
+
+.sale-thumb-right {
+    display: none;
+}
+
+/* LOGO */
+
+.header{
+    background-color: #ffdc00;
+}
+
+ .logo {
+     border: 1px solid orange;  
+} 
+
+
+.brand{
+   
+
+}
+
+.logo-title__h1{
+    font-size: .5625rem;
+    line-height: 17px;
+    color: #6f6f6f;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 1003px) and (max-width: 1450px) {
+    .contact-us {
+        display: block;
+    }
+
+    .sale-thumb-left {
+        display: none;
+    }
+
+    .sale-thumb-right {
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1451px) {
+    .contact-us {
+        display: block;
+    }
+
+    .sale-thumb-left {
+        display: none;
+    }
+
+    .sale-thumb-right {
+        display: block;
+    }
+
+
+}

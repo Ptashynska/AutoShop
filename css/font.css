@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url('../font/ofont.ru_Helvetica Neue Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('../font/ofont.ru_Helvetica Neue Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue Light Italic';
+    src: url('../font/ofont.ru_Helvetica Neue Light Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
