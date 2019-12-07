@@ -24,3 +24,10 @@
 
 }
 
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('../font/ofont.ru_Helvetica Neue Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+
+}

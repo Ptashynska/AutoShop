@@ -15,88 +15,89 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-sm col-md-7">
+            <div class="row justify-space-between ">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="logo d-flex flex-column justify-content-start">
                         <div class="brand">
-                            <a href="#" class="brand__link">
-                                <img src="img/logo.png" class="img-fluid" alt="logo company autoShop">
+                            <a href="#" class="d-block brand__link">
+                                <img src="img/logo.png" class="img-fluid brand__img" alt="logo company autoShop">
                             </a>
                         </div>
                         <div class="logo-title ">
                             <h1 class="logo-title__h1">МАГАЗИН АВТОЭЛЕКТРОНИКИ</h1>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-md-5">
-                    <div class="contact-us">
-
-                    <div>
-                        <a href="tel:+380990430301">(099) 04-30-301</a>
+                <div class="col-md-6 col-lg-6">
+                    <div class="contact-us d-none  d-md-flex flex-column align-items-end">
+                        <div class="contact-us-number">
+                            <a href="tel:+380979630148" class="contact-us-number__link">(097) 963-01-48</a>
+                        </div>
+                        <div class="make-call-btn">
+                            <a class="make-call-btn__link" href="#">Заказать звонок</a>
+                        </div>
                     </div>
-                    <div class="make-call-btn">
-                        <a class="make-call-btn__link" href="#">Сделать звонок</a>
-                    </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-
-
     </header>
 
     <main>
-        <section class=" sale-item">
+        <section class="baner-area baner-area-bg ">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm col-md-7">
-                        <div class="sale-title">
-                            <h2 class="sale-title__h2">Видеопарктроник - автоновинка 2017 года</h2>
-                        </div>
-                        <div class="sale-text">
-                            <p class="sale-text__p">Закажите видеопарктроник
-                                до конца дня и получите
-                                в подарок солнцезащитный козырек!</p>
-                        </div>
-                        <div class="sale-thumb-left">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="sale-item d-flex flex-column justify-content-start">
+                            <div class="sale-item-content">
+                                <div class="sale-title">
+                                    <h2 class="sale-title__h2">Видеопарктроник - <strong>автоновинка 2017 года</strong>
+                                    </h2>
+                                </div>
+                                <div class="sale-text">
+                                    <p class="sale-text__p"><strong>Закажите</strong> видеопарктроник</p>
+                                    <p class="sale-text__p"><strong>до конца дня и получите</strong></p>
+                                    <p class="sale-text__p"><strong>в подарок</strong> солнцезащитный козырек!</p>
+                                </div>
+                            </div>
+                            <div class="sale-item-thumb-left d-block d-md-none">
                                 <div class="sale-thumb">
-                                    <div class="sale-thumb__img img-fluid">
+                                    <div class="sale-thumb__img d-flex flex-row justify-content-center img-fluid">
                                         <img src="img/item..png" alt="Videopartronic">
                                     </div>
                                 </div>
-                                <div class="sale-price">
+                                <div class="sale-price d-flex flex-column">
                                     <span class="sale-price__old">6999 p.</span>
                                     <span class="sale-price__new">3999 p.</span>
                                 </div>
                             </div>
-                        <div class="sale-time">
-                            <div class="time-sale__item time-sale__hrs">
-                                <span class="time-sale__number">15</span>
+                            <div
+                                class="sale-time d-flex flex-row justify-content-center justify-content-lg-start flex-nowrap">
+                                <div class="sale-time__item sale-time__hrs">
+                                    <span class="sale-time__number">1</span>
+                                    <span class="sale-time__number">5</span>
+                                </div>
+                                <div class="sale-time__item sale-time__mins">
+                                    <span class="sale-time__number">5</span>
+                                    <span class="sale-time__number">2</span>
+                                </div>
+                                <div class="sale-time__item sale-time__sec">
+                                    <span class="sale-time__number">0</span>
+                                    <span class="sale-time__number">5</span>
+                                </div>
                             </div>
-                            <div class="time-sale__item time-sale__mins">
-                                <span class="time-sale__number">52</span>
+                            <div
+                                class="btn-box btn-box-header d-flex flex-row justify-content-center justify-content-lg-start">
+                                <button type="submit" class="btn btn-lg btn-order">Заказать</button>
                             </div>
-                            <div class="time-sale__item time-sale__sec">
-                                <span class="time-sale__number">05</span>
-                            </div>
-                        </div>
-                        <div class="btn sale-btn">
-                            <button type="submit">Заказать</button>
                         </div>
                     </div>
-
-                    <div class="col-md-5">
-
-                        <div class="sale-thumb-right">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="sale-item-thumb-right d-none d-md-block">
                             <div class="sale-thumb">
                                 <div class="sale-thumb__img">
-                                    <img src="img/item..png" alt="Videopartronic">
+                                    <img src="img/item..png" class="img-fluid" alt="Videopartronic">
                                 </div>
                             </div>
                             <div class="sale-price">
@@ -104,20 +105,583 @@
                                 <span class="sale-price__new">3999 p.</span>
                             </div>
                         </div>
-
-
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="properties-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="properties-item-title">
+                            <h2 class="properties-item-title__h2"><span>Характеристики </span>видеопарктроника</h2>
+                        </div>
+                        <div class="properties-box">
+                            <div class="properties-content line-decoration-lg line-decoration-padding-lg">
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">Разрешение:</p>
+                                    </div>
+                                    <div class="properties-value ">
+                                        <p class="properties-value__p">420 ТВ-линий</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">Количество пикселей:</p>
+                                    </div>
+                                    <div class="properties-value line-decoration line-decoration-padding">
+                                        <p class="properties-value__p">648 x 488</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p"> Матрица камеры:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p"> цветная CMD</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p"> Минимальная освещенность:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p">0.2 LUX</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">ТВ-система:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p">PAL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="properties-thumb">
+                                <img src="img/tv-sistem.png" class="img-fluid" alt="photo partronika">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="properties-box properties-box-2">
+                            <div class="properties-content line-decoration-lg line-decoration-padding-lg">
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">Питание:</p>
+                                    </div>
+                                    <div class="properties-value ">
+                                        <p class="properties-value__p">12 V</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name ">
+                                        <p class="properties-name__p">Угол обзора:</p>
+                                    </div>
+                                    <div class="properties-value ">
+                                        <p class="properties-value__p">170°</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p"> Цвет:</p>
+                                    </div>
+                                    <div class="properties-value line-decoration line-decoration-padding">
+                                        <p class="properties-value__p">черный, серый</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p"> Максимальная защита от воды и пыли:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p">IP68</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">Диапазон рабочих температур:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p">от -30°C до +65°C</p>
+                                    </div>
+                                </div>
+                                <div class="properties">
+                                    <div class="properties-name">
+                                        <p class="properties-name__p">Габаритные размеры рамки номерного знака:</p>
+                                    </div>
+                                    <div class="properties-value">
+                                        <p class="properties-value__p">545 х 145 мм</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="properties-thumb">
+                                <img src="img/number-sign.png" class="img-fluid" alt="photo partronika">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="properties-box equipment-box">
+                            <div class="properties-content equipment-content">
+                                <div class="equipment-title ">
+                                    <p class="equipment-title__p properties-name__p">Комплектация:</p>
+                                </div>
+                                <ul class="equipment-list">
+                                    <li class="equipment-item properties-value__p">- Зеркало с монитором 4,3" легко и
+                                        просто
+                                        крепится поверх штатного в автомобилях
+                                        любых марок и типов кузова.</li>
+                                    <li class="equipment-item properties-value__p">- Рамка автомобильного номера со
+                                        встроенной камерой</li>
+                                    <li class="equipment-item properties-value__p">- Комплект установочных проводов</li>
+                                </ul>
+                            </div>
+                            <div class="properties-thumb d-none d-lg-block">
+                                <img src="img/equepment.png" class="img-fluid" alt="photo partronika">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+                <div class="btn-box d-flex flex-row justify-content-center justify-content-lg-center">
+                    <button type="submit" class="btn btn-lg btn-order">Заказать</button>
+                </div>
+            </div>
+        </section>
+        <section class="static-area">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2">Причины <span>купить видеопарктроник </span>у нас</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12  col-md-3 col-lg-3">
+                        <div class="single-static">
+                            <div class="static-icon">
+                                <img src="img/jeep.png" alt="car icon">
+                            </div>
+                            <div class="static-content">
+                                <h3>Быстрый и легкий монтаж</h3>
+                                <p>Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div class="single-static">
+                            <div class="static-icon">
+                                <img src="img/discount.png" alt="discount icon">
+                            </div>
+                            <div class="static-content">
+                                <h3>Стоимость</h3>
+                                <p>Цена видеопарктроника у дилера от 19990 руб.Наша цена всего 3990 руб.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div class="single-static">
+                            <div class="static-icon">
+                                <img src="img/wallet.png" alt="wallet icon">
+                            </div>
+                            <div class="static-content">
+                                <h3>Экономия</h3>
+                                <p>В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера
+                                    от 6000 руб. и срок ремонта от 3‐х дней. Стоимость нашего видеопарктроника всего
+                                    3990 руб.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div class="single-static">
+                            <div class="static-icon">
+                                <img src="img/checked.png" alt="checked icon">
+                            </div>
+                            <div class="static-content">
+                                <h3>Безопасность для пешеходов</h3>
+                                <p>при движении задним ходом (угол обзора нашей камеры 170 градусов)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="working-area">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2">Как работает <span> видеопарктроник? </span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class=" video-item">
+                            <button class="video-item__btn">
+                                <span class="video-item__arrow-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2">Как вы <span> экономите? </span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-item">
+                            <div class="feature-title">
+                                <h3 class="feature-title__h3">Ремонт бампера стоит от
+                                    <span class="feature-title__h3_yellow">6000 <span
+                                            class="feature-title__h3_bold">рублей</span></span>
+                                </h3>
+                            </div>
+                            <div class="feature-thumb-box">
+                                <div class="feature-thumb-item">
+                                    <img src="img/women-wheel.jpg" class="feature-thumb-item__img img-fluid"
+                                        alt="women behind the wheel">
+                                </div>
+                                <div class="feature-thumb-item">
+                                    <img src="img/1.jpg" class="feature-thumb-item__img img-fluid" alt="car">
+                                </div>
+                                <div class="feature-thumb-item">
+                                    <img src="img/2..jpg" class="feature-thumb-item__img img-fluid" alt="car">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="feature-item">
+                            <div class="feature-title feature-title-with-present">
+                                <h3 class="feature-title__h3">видеопарктроник с подарком стоит
+                                    <span class="feature-title__h3_bold">всего</span>
+                                    <span class="feature-title__h3_yellow">3990 <span
+                                            class="feature-title__h3_bold">рублей</span></span>
+                                </h3>
+                            </div>
+                            <div class="feature-thumb-box feature-thumb-box-plus">
+                                <div class="feature-thumb-item">
+                                    <img src="img/item..png" class="feature-thumb-item__img img-fluid" alt="partronic">
+                                </div>
+                                <div class="feature-thumb-item">
+                                    <img src="img/present.png" class="feature-thumb-item__img img-fluid" alt="mirror">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-box d-flex flex-row justify-content-center justify-content-lg-center">
+                    <button type="submit" class="btn btn-lg btn-order">Заказать</button>
+                </div>
+            </div>
+        </section>
+        <section class="feedback-area">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2">Отзывы о нашем <span> видеопарктронике </span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="slider">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item carousel-item-flex active">
+                                        <div class="carousel-item-thumb ">
+                                            <img src="img/slider-item.jpg" class="d-block carousel-item__img" alt="...">
+                                        </div>
+                                        <div class="carousel-feedback clearfix">
+                                            <div class="carousel-feedback-content">
+                                                <p class="carousel-feedback-content__text">Опять долгие ночи в интернете
+                                                    в поисках обзоров и сравнений… Проблема
+                                                    таких устройств что у них либо
+                                                    дизайн уродский огромный — в полтора раза больше штатного, а я
+                                                    вообще не люблю заднее зеркало, так как за
+                                                    3 года вождения рабочих "каблучков" типа Кангу и Берлинго вообще
+                                                    привык без него обходится, либо тех.
+                                                    данные никакие — камеры очень плохого качества… Уже думал что
+                                                    печаль… :( Но вот за пару дней поисков
+                                                    наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его
+                                                    у одного из драйвечан, и у других.
+                                                    Все в восторге от данного устройства. Качество видео очень хорошее,
+                                                    в машине не видно его вообще,
+                                                    крепления на штатное зеркало любой машины, вообщем то что доктор
+                                                    прописал!</p>
+                                            </div>
+                                            <div class="carousel-feedback-author">
+                                                <div class="carousel-feedback-author__photo">
+                                                    <img src="img/photo-feedback.png"
+                                                        class="carousel-feedback-author__photo img-fluid"
+                                                        alt="photo feedback-author">
+                                                </div>
+                                                <div class="carousel-feedback-author__name">
+                                                    <p>Константин <span>г. Днепропетровск</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item carousel-item-flex">
+                                        <div class="carousel-item-thumb ">
+                                            <img src="img/slider-item.jpg" class="d-block carousel-item__img" alt="...">
+                                        </div>
+                                        <div class="carousel-feedback clearfix">
+                                            <div class="carousel-feedback-content">
+                                                <p class="carousel-feedback-content__text"> Опять долгие ночи в
+                                                    интернете в поисках обзоров и сравнений… Проблема
+                                                    таких устройств что у них либо
+                                                    дизайн уродский огромный — в полтора раза больше штатного, а я
+                                                    вообще не люблю заднее зеркало, так как за
+                                                    3 года вождения рабочих "каблучков" типа Кангу и Берлинго вообще
+                                                    привык без него обходится, либо тех.
+                                                    данные никакие — камеры очень плохого качества… Уже думал что
+                                                    печаль… :( Но вот за пару дней поисков
+                                                    наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его
+                                                    у одного из драйвечан, и у других.
+                                                    Все в восторге от данного устройства. Качество видео очень хорошее,
+                                                    в машине не видно его вообще,
+                                                    крепления на штатное зеркало любой машины, вообщем то что доктор
+                                                    прописал!</p>
+                                            </div>
+                                            <div class="carousel-feedback-author">
+                                                <div class="carousel-feedback-author__photo">
+                                                    <img src="img/photo-feedback.png"
+                                                        class="carousel-feedback-author__photo img-fluid"
+                                                        alt="photo feedback-author"></div>
+                                                <div class="carousel-feedback-author__name">
+                                                    <p>Константин <span>г. Днепропетровск</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item carousel-item-flex">
+                                        <div class="carousel-item-thumb ">
+                                            <img src="img/slider-item.jpg" class="d-block carousel-item__img" alt="...">
+                                        </div>
+                                        <div class="carousel-feedback clearfix ">
+                                            <div class="carousel-feedback-content">
+                                                <p class="carousel-feedback-content__text">Опять долгие ночи в интернете
+                                                    в поисках обзоров и сравнений… Проблема
+                                                    таких устройств что у них либо
+                                                    дизайн уродский огромный — в полтора раза больше штатного, а я
+                                                    вообще не люблю заднее зеркало, так как за
+                                                    3 года вождения рабочих "каблучков" типа Кангу и Берлинго вообще
+                                                    привык без него обходится, либо тех.
+                                                    данные никакие — камеры очень плохого качества… Уже думал что
+                                                    печаль… :( Но вот за пару дней поисков
+                                                    наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его
+                                                    у одного из драйвечан, и у других.
+                                                    Все в восторге от данного устройства. Качество видео очень хорошее,
+                                                    в машине не видно его вообще,
+                                                    крепления на штатное зеркало любой машины, вообщем то что доктор
+                                                    прописал!</p>
+                                            </div>
+                                            <div class="carousel-feedback-author">
+                                                <div class="carousel-feedback-author__photo">
+                                                    <img src="img/photo-feedback.png"
+                                                        class="carousel-feedback-author__photo img-fluid"
+                                                        alt="photo feedback-author"></div>
+                                                <div class="carousel-feedback-author__name">
+                                                    <p>Константин <span>г. Днепропетровск</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery-guarantee-area">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2">ДОсТАвКА и ГАРАНТИИ</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="condition-static">
+                            <div class="condition-static-title">
+                                <h3 class="condition-static-title__h3">Гарантия</h3>
+                            </div>
+                            <ul class="condition-static-list">
+                                <li class="condition-static-item">Гарантия на изделие составляет
+                                    1 год.</li>
+                                <li class="condition-static-item">Срок сервисного обслуживания
+                                    составляет 2 года.</li>
+                                <li class="condition-static-item"> Если вы получили товар и он вам
+                                    не понравился, мы гарантируем
+                                    возврат или обмен в течение 14 дней.</li>
+                            </ul>
+                            <div class="condition-static-text">
+                                <p class="condition-static-text__p ">Мы заботимся о своей репутации, клиенты для нас на
+                                    первом месте! </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="single-static">
+                            <div class="static-icon static-icon__mb">
+                                <img src="img/package.png" alt="package icon">
+                            </div>
+                            <div class="static-content">
+                                <h3 class="static-content__h3_big">Оплата при получении</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="single-static">
+                            <div class="static-icon static-icon__mb">
+                                <img src="img/secure-shield.png" alt="secure icon">
+                            </div>
+                            <div class="static-content">
+                                <h3 class="static-content__h3_big">2 года гарантии</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="single-static">
+                            <div class="static-icon static-icon__mb">
+                                <img src="img/coins.png" alt="coins icon">
+                            </div>
+                            <div class="static-content">
+                                <h3 class="static-content__h3_big">Возврат денег в течении 14 дней</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 ">
+                        <div class="condition-static">
+                            <div class="condition-static-title">
+                                <h3 class="condition-static-title__h3">ДОСТАВКА И ОПЛАТА ПО РОССИИ</h3>
+                            </div>
+                            <ul class="condition-static-list">
+                                <li class="condition-static-item">ГСтоимость доставки зависит от Вашего региона-города
+                                </li>
+                                <li class="condition-static-item">Доставка почтой РФ 1 классом от 300 руб. EMS Курьер от
+                                    600 руб.</li>
+                                <li class="condition-static-item"> Если вы получили товар и он вам
+                                    не понравился, мы гарантируем
+                                    возврат или обмен в течение 14 дней.</li>
+                                <li class="condition-static-item">Сроки доставки от <span
+                                        class="condition-static-item_bold"> 3 до 7 дней. </span>
+                                </li>
+                                <li class="condition-static-item">Оплата производится при получении товара.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="condition-static">
+                            <div class="condition-static-title">
+                                <h3 class="condition-static-title__h3">ДОСТАВКА И ОПЛАТА ПО МОСКВЕ И СПБ</h3>
+                            </div>
+                            <ul class="condition-static-list">
+                                <li class="condition-static-item"> Курьером по Москве <span
+                                        class="condition-static-item_bold"> от 250 руб.</span></li>
+                                <li class="condition-static-item"> Курьером по Санкт Петербургу
+                                    от 200 руб. </li>
+                                <li class="condition-static-item"> Сроки доставки <span
+                                        class="condition-static-item_bold"> 1-2 дня.</span></li>
+                                <li class="condition-static-item"> Вы также можете забрать и оплатить
+                                    свой заказ в пункте самовывоза.
+                                    <span class="condition-static-item_bold"> Стоимость 100 руб. </span></li>
+                                <li class="condition-static-item"> Ближайший к Вам адрес самовывоза
+                                    уточняйте по телефону.</li>
+                                <li class="condition-static-item"> Оплата производится наличными при
+                                    получении.</li>
+                                <li class="condition-static-item"> У Вам есть уникальная возможность
+                                    вскрыть посылку до ее оплаты!</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <footer class="footer">
+            <div class="container">
+                <div class="properties-item-title">
+                    <h2 class="properties-item-title__h2 properties-item-title__h2_footer">закажите свой видеопарктроник
+                        <span> до конца дня </span> И <span>получите
+                            в подарок</span> антибликовое стекло</h2>
+                </div>
+                <div class="row ">
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <div
+                            class="feature-thumb-box feature-thumb-box-plus position-relative feature-thumb-box__footer">
+                            <div class="feature-thumb-item">
+                                <img src="img/item..png" class="feature-thumb-item__img img-fluid" alt="partronic">
+                            </div>
+                            <div class="feature-thumb-item">
+                                <img src="img/present2.png" class="feature-thumb-item__img img-fluid" alt="mirror">
+                            </div>
+                            <div class="sale-price d-flex flex-column sale-price__footer">
+                                <span class="sale-price__old">6999 p.</span>
+                                <span class="sale-price__new">3999 p.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <div class="footer-right-side d-lg-flex flex-lg-column align-items-center ">
+                            <form class="footer-form">
+                                <input type="email" class="form-control form-control-text" id="exampleFormControlInput1"
+                                    placeholder="Введите имя">
+                                <input type="text" class="form-control form-control-text" id="validationDefault01"
+                                    value="" required name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    placeholder="+7 (___)___ __ __">
+                            </form>
+                            <div
+                                class="sale-time d-flex flex-row justify-content-center justify-content-lg-start flex-nowrap">
+                                <div class="sale-time__item sale-time__hrs">
+                                    <span class="sale-time__number">1</span>
+                                    <span class="sale-time__number">5</span>
+                                </div>
+                                <div class="sale-time__item sale-time__mins">
+                                    <span class="sale-time__number">5</span>
+                                    <span class="sale-time__number">2</span>
+                                </div>
+                                <div class="sale-time__item sale-time__sec">
+                                    <span class="sale-time__number">0</span>
+                                    <span class="sale-time__number">5</span>
+                                </div>
+                            </div>
+                            <div
+                                class="btn-box btn-box-header d-flex flex-row justify-content-center justify-content-lg-start">
+                                <button type="submit" class="btn btn-lg btn-order">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    </main>
 
 
 
-    <!-- Optional JavaScript -->
+    </main> <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
